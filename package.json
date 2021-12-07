@@ -39,5 +39,15 @@
     "test": "mocha",
     "prepublishOnly": "yarn test"
   },
-  "license": "GPL-3.0-or-later"
+  "license": "GPL-3.0-or-later",
+  "dependencies": {
+    "@nomiclabs/hardhat-truffle5": "^2.0.2",
+    "@nomiclabs/hardhat-web3": "^2.0.0",
+    "@truffle/abi-utils": "^0.2.4",
+    "hardhat": "^2.7.0",
+    "hardhat-gas-reporter": "^1.0.6",
+    "solidity-coverage": "^0.7.17",
+    "web3": "^1.6.1",
+    "yargs": "^17.3.0"
+  }
 }
